@@ -32,8 +32,8 @@ export default class TabBarRootNode extends React.Component {
     return (
       <div
         role="tablist"
+        tabIndex={-1}
         className={cls}
-        tabIndex="0"
         ref={this.props.saveRef('root')}
         onKeyDown={onKeyDown}
         style={style}
