@@ -36,7 +36,6 @@ export default class Sentinel extends React.Component {
 
     return (
       <div
-        tabIndex={0}
         ref={setRef}
         style={sentinelStyle}
         onKeyDown={this.onKeyDown}
