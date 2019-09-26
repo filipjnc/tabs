@@ -48,6 +48,7 @@ export default class TabPane extends React.Component {
               style={style}
               role="tabpanel"
               aria-hidden={active ? 'false' : 'true'}
+              tabIndex={active ? 0 : -1}
               className={cls}
               id={id}
               {...getDataAttr(restProps)}
