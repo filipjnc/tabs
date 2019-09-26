@@ -30,6 +30,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项0
               </div>
@@ -39,6 +40,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项1
               </div>
@@ -48,6 +50,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项2
               </div>
@@ -57,6 +60,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项3
               </div>
@@ -66,6 +70,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项4
               </div>
@@ -75,6 +80,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项5
               </div>
@@ -84,6 +90,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项6
               </div>
@@ -93,6 +100,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项7
               </div>
@@ -102,6 +110,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab rc-tabs-tab-active"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="0"
               >
                 选项8
               </div>
@@ -111,6 +120,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项9
               </div>
@@ -120,6 +130,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
                 class="rc-tabs-tab"
                 role="tab"
                 style="-webkit-flex-basis:20%;flex-basis:20%"
+                tabindex="-1"
               >
                 选项10
               </div>
