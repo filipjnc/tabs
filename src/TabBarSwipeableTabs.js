@@ -40,6 +40,7 @@ export default class TabBarSwipeableTabs extends React.Component {
         style={tabStyle}
         aria-disabled={child.props.disabled ? 'true' : 'false'}
         aria-selected={activeKey === key ? 'true' : 'false'}
+        tabIndex={activeKey === key ? 0 : -1}
         {...events}
         className={cls}
         key={key}
