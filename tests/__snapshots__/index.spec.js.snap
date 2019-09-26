@@ -74,7 +74,6 @@ exports[`rc-tabs should render Tabs with correct DOM structure 1`] = `
   <div
     role="presentation"
     style="width:0;height:0;overflow:hidden;position:absolute"
-    tabindex="0"
   />
   <div
     class="rc-tabs-content rc-tabs-content-animated"
@@ -84,34 +83,34 @@ exports[`rc-tabs should render Tabs with correct DOM structure 1`] = `
       aria-hidden="true"
       class="rc-tabs-tabpane rc-tabs-tabpane-inactive"
       role="tabpanel"
+      tabindex="-1"
     />
     <div
       aria-hidden="false"
       class="rc-tabs-tabpane rc-tabs-tabpane-active"
       role="tabpanel"
+      tabindex="0"
     >
       <div
         role="presentation"
         style="width:0;height:0;overflow:hidden;position:absolute"
-        tabindex="0"
       />
       second
       <div
         role="presentation"
         style="width:0;height:0;overflow:hidden;position:absolute"
-        tabindex="0"
       />
     </div>
     <div
       aria-hidden="true"
       class="rc-tabs-tabpane rc-tabs-tabpane-inactive"
       role="tabpanel"
+      tabindex="-1"
     />
   </div>
   <div
     role="presentation"
     style="width:0;height:0;overflow:hidden;position:absolute"
-    tabindex="0"
   />
 </div>
 `;
