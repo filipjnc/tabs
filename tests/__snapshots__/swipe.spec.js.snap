@@ -145,6 +145,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
     <div
       role="presentation"
       style="width:0;height:0;overflow:hidden;position:absolute"
+      tabindex="-1"
     />
     <div
       class="rc-tabs-content rc-tabs-content-animated"
@@ -207,6 +208,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
         <div
           role="presentation"
           style="width:0;height:0;overflow:hidden;position:absolute"
+          tabindex="-1"
         />
         <div
           style="display:flex;align-items:center;justify-content:center;height:5rem;background-color:#fff"
@@ -216,6 +218,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
         <div
           role="presentation"
           style="width:0;height:0;overflow:hidden;position:absolute"
+          tabindex="-1"
         />
       </div>
       <div
@@ -234,6 +237,7 @@ exports[`rc-swipeable-tabs should render Slider with correct DOM structure 1`] =
     <div
       role="presentation"
       style="width:0;height:0;overflow:hidden;position:absolute"
+      tabindex="-1"
     />
   </div>
 </div>
