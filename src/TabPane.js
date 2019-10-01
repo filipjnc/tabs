@@ -45,7 +45,7 @@ export default class TabPane extends React.Component {
 
           return (
             <div
-              style={style}
+              style={{ ...style, visibility: active ? 'visible' : 'hidden' }}
               role="tabpanel"
               aria-hidden={active ? 'false' : 'true'}
               tabIndex={active ? 0 : -1}
