@@ -69,7 +69,7 @@ var TabPane = function (_React$Component) {
           return React.createElement(
             'div',
             _extends({
-              style: style,
+              style: _extends({}, style, { visibility: active ? 'visible' : 'hidden' }),
               role: 'tabpanel',
               'aria-hidden': active ? 'false' : 'true',
               tabIndex: active ? 0 : -1,

@@ -658,7 +658,7 @@ var TabPane = function (_React$Component) {
           return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             _extends({
-              style: style,
+              style: _extends({}, style, { visibility: active ? 'visible' : 'hidden' }),
               role: 'tabpanel',
               'aria-hidden': active ? 'false' : 'true',
               tabIndex: active ? 0 : -1,
